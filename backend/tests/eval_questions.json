@@ -1,0 +1,87 @@
+[
+  {
+    "id": "E01",
+    "question": "What is the purpose of the Code of Conduct?",
+    "expect_grounded": true,
+    "expected_pages": [100],
+    "key_facts": ["ethical practices"]
+  },
+  {
+    "id": "E02",
+    "question": "What is the purpose of the whistleblower policy?",
+    "expect_grounded": true,
+    "expected_pages": [140],
+    "key_facts": ["platform", "protection", "whistleblower"]
+  },
+  {
+    "id": "E03",
+    "question": "What ethical standards are expected from employees?",
+    "expect_grounded": true,
+    "expected_pages": [100, 87],
+    "key_facts": ["anti-trust", "data security", "human rights"]
+  },
+  {
+    "id": "E04",
+    "question": "How should an employee report a violation?",
+    "expect_grounded": true,
+    "expected_pages": [99, 94, 100, 120],
+    "key_facts": ["whistleblower@ltimindtree.com"]
+  },
+  {
+    "id": "E05",
+    "question": "What email address should be used for POSH complaints?",
+    "expect_grounded": true,
+    "expected_pages": [94, 120],
+    "key_facts": ["POSH@ltimindtree.com"]
+  },
+  {
+    "id": "E06",
+    "question": "What is the anti-bribery policy's position on termination for corruption?",
+    "expect_grounded": true,
+    "expected_pages": [91],
+    "key_facts": ["termination"]
+  },
+  {
+    "id": "E07",
+    "question": "What is the exact monthly salary of a fresher software engineer?",
+    "expect_grounded": false,
+    "expected_pages": [],
+    "key_facts": []
+  },
+  {
+    "id": "E08",
+    "question": "What is the company's refund policy?",
+    "expect_grounded": false,
+    "expected_pages": [],
+    "key_facts": []
+  },
+  {
+    "id": "E09",
+    "question": "How should employees protect sensitive company information?",
+    "expect_grounded": false,
+    "expected_pages": [],
+    "key_facts": []
+  },
+  {
+    "id": "E10",
+    "question": "What is the company's name?",
+    "expect_grounded": true,
+    "expected_pages": [],
+    "key_facts": ["LTIMindtree"]
+  },
+  {
+    "id": "E11",
+    "question": "What happens when an employee violates the Code of Conduct?",
+    "expect_grounded": true,
+    "expected_pages": [99, 100],
+    "key_facts": ["disciplinary"],
+    "known_gap": true
+  },
+  {
+    "id": "E12",
+    "question": "How many POSH complaints were reported in FY 2024-25?",
+    "expect_grounded": true,
+    "expected_pages": [100],
+    "key_facts": ["8"]
+  }
+]
