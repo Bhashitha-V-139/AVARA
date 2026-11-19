@@ -121,7 +121,7 @@ The original specification named the Claude API. This project uses Gemini becaus
 **1. Get the code and create a virtual environment**
 
 ```powershell
-git clone https://github.com/Bhashitha-V-139/avara.git
+git clone https://github.com/Bhashitha-V-139/AVARA.git
 cd avara
 python -m venv venv
 venv\Scripts\activate
